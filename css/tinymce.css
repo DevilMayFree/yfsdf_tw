@@ -1,0 +1,10 @@
+/*
+@import url("tinymce_2015.css");
+p { font-size:14px; line-height:20px; }
+*/
+.tinymce li{
+	list-style-type : square;
+	margin-left:20px;
+	box-sizing: border-box;
+	font-size:13px;
+}

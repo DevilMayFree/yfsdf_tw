@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
+@font-face {
+  font-family: 'Mplus 1p';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/mplus1p/v1/Mplus1p-Thin.eot);
+  src: url(//fonts.gstatic.com/ea/mplus1p/v1/Mplus1p-Thin.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/mplus1p/v1/Mplus1p-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/mplus1p/v1/Mplus1p-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/mplus1p/v1/Mplus1p-Thin.ttf) format('truetype');
+}
+@charset "utf-8";
+*{
+	font-family:\5FAE\8EDF\6B63\9ED1\9AD4, Arial, Helvetica, 'Mplus 1p', "Microsoft JhengHei", "微軟正黑體", "Apple LiGothic Medium", "蘋果儷中黑", sans-serif;
+
+	/*
+	font-family:Arial, Helvetica,"Apple LiGothic Medium","微軟正黑體","Microsoft JhengHei","蘋果儷中黑", sans-serif
+	*/
+	
+	/*
+	font-family: Arial, Helvetica, "Microsoft JhengHei", 'Mplus 1p', cursive, "微軟正黑體", "Apple LiGothic Medium", "蘋果儷中黑", sans-serif;
+	*/
+}
+.clearDiv{
+	clear:both;
+	}
+.last{
+	margin-right:0 !important;
+	}
+p{
+	font-size:13px;
+	line-height:18px;
+	color:#000;
+	}
+h1{
+	font-size:18px;
+	font-weight:bold;
+	color:#231815;
+	}
+h4{
+	font-size:14px;
+	color:#231815;
+	}
+.bold{
+	font-weight:bold;
+	}
+.ie10 #navi01 div.navi01_bg {
+	background:#c41230;
+}
+#navi01 div.navi01_bg {
+	background:#c41230 \9;/* IE8 */
+	background:#c41230 \0;/* IE8 */
+	opacity:0.9 \0;
+}
+@media screen and (min-width:0\0) {
+    /* IE9 , IE10 ,IE11 rule sets go here */
+	#navi01 div.navi01_bg {
+	background:#c41230;
+	opacity:0.9;
+}
+}

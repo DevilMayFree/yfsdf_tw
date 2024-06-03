@@ -1,0 +1,11 @@
+/*
+.nav_sub_arrow{
+	background:url(../images/sub_naviArrow.png) 20px 5px no-repeat;
+}
+*/
+#article_content li{
+	background: url("../images/organization_dot.gif") left 6px no-repeat;
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	color: #000;
+}

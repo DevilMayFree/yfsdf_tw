@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{
+	font-family:Arial, Helvetica, "Microsoft JhengHei", "微軟正黑體", "Apple LiGothic Medium", "蘋果儷中黑", sans-serif
+	}
+/**{
+	font-family:Arial, Helvetica,"Apple LiGothic Medium","微軟正黑體","Microsoft JhengHei","蘋果儷中黑", sans-serif
+	}*/
+.clearDiv{
+	clear:both;
+	}
+.last{
+	margin-right:0 !important;
+	}
+p{
+	font-size:13px;
+	line-height:18px;
+	color:#000;
+	}
+h1{
+	font-size:18px;
+	font-weight:bold;
+	color:#231815;
+	}
+h4{
+	font-size:14px;
+	color:#231815;
+	}
+.bold{
+	font-weight:bold;
+	}

@@ -1,0 +1,135 @@
+.cjBodyMask { position:absolute; top:-1000px; left:-1000px; display:none; background:#000 }
+.cjMoveMask { position:absolute; border:1px solid #000; background:#333; }
+.cjIEMask { position:absolute;top:0;left:0;width:100%;height:100%; background:#333; visibility:visible; }
+.cjMove { position:absolute; width: 100%; height:16px; top:0; left:0; cursor: move; background:#043947}
+.cjCloseBtn { position:absolute; top:2px; right: 2px; width:12px; height:12px; background:url(close.gif); cursor:pointer }
+
+/* calendar */
+.cjCalendar { position:absolute; width:220px; height:300px; border:1px solid black; background:#043947; visibility:hidden; }
+.cjCalendar .cjMove { position:absolute; width: 100%; height:16px; top:0; left:0; cursor: move; }
+.cjCalendar div { margin:0; padding:0; position:absolute; display:block; text-align:center; font: bold 12px/20px Arial; color:#043947; cursor:pointer }
+.cjCalendar .nav { background: #c4ebdc; color:blue }
+.cjCalendar .ny { background: url(cal_ny_btn.png) #c4ebdc }
+.cjCalendar .ly { background: url(cal_ly_btn.png) #c4ebdc }
+.cjCalendar .nm { background: url(cal_nm_btn.png) #c4ebdc }
+.cjCalendar .lm { background: url(cal_lm_btn.png) #c4ebdc }
+.cjCalendar .week { background: #e2e2e2; color:blue }
+.cjCalendar .sat { color : #41c40d }
+.cjCalendar .sun { color : red }
+.cjCalendar .day { background:#fff }
+.cjCalendar .theday { background : #c4ebdc }
+/* lodding */
+.cjLoadding { background:url(rolling.gif) left top no-repeat; position:absolute; width:35px; height:35px; z-index:10000; 
+display:none; padding:20px;}
+/* slidshow */
+.cjSlideshow { display:block; overflow:hidden }
+.cjSlideshowImgs { position:absolute; top:-10000px; left:-10000px; display: none }
+.cjSlideshowImgs img { position:absolute; bottom:0; left:0; display:none }
+/* marquee */
+.cjMarquee { display:block; border:1px solid #808080 }
+.cjMarqueeItems { position:absolute; top:-10000px; left:-10000px; display:block; overflow:hidden }
+.cjMarqueeItems div { position:absolute; top:-10000px; left:-10000px; display:block }
+/* popMsg */
+.cjPopMsg { font: 12px/16px arial; color:#FFF; position:absolute; display:block; padding:5px; overflow:visible; border: 1px solid #ccc; background: #12a2dd}
+/* popImg */
+.cmsPopImg { cursor:pointer }
+/* color picker */
+.cjColorPicker { position:absolute; width:100%; height:100%;border:1px solid black; background:#f0f0f0 }
+.cjColorPicker .cjColor { position:absolute; cursor:pointer; border:1px solid #f0f0f0 }
+.cjColorPicker .cjColor:hover { border:1px solid #000 }
+/* swfu */
+.cjSwfu .fieldset {
+	margin: 5px 0;
+	padding: 10px 10px;
+}
+.cjSwfu .fieldset span.legend {
+	position: relative;
+	background-color: #FFF;
+	padding: 0px;
+	top: -18px;
+	font: 700 14px Arial, Helvetica, sans-serif;
+	color: #73b304;
+}
+.cjSwfu .flash {
+	width: 96%;
+	margin: 0px 5px;
+	border-color: #D9E4FF;
+}
+.progressWrapper {
+	width: 100%;
+	overflow: hidden;
+	height:100px;
+}
+
+.progressContainer {
+	margin: 5px;
+	padding: 4px;
+	background-color: #F7F7F7;
+	overflow: hidden;
+}
+.progressName {
+	font-size: 12px;
+	font-weight: 700;
+	color: #555;
+	width: 100%;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 12px;
+	width: 0%;
+	height: 12px;
+	background-color: #73b304;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: #73b304;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-image: url(../images/cancelbutton.gif);
+	background-repeat: no-repeat;
+	background-position: -14px 0px;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-position: 0px 0px;
+}
+
+
+/* inline_popup */
+.popFrame { position:absolute; background:white; border:10px solid #fff; overflow:auto; margin:0; padding:0;}
+/* search box */
+.cjSearchBox { position:absolute; overflow:hidden; background:#f0f0f0; border:1px solid green; width:100px; height:100px; display:none; z-index:65535}
+.cjSearchBox a {display:block; text-decoration:underline; width:100%; cursor:pointer; padding:0 5px; font-size:12px; line-height:25px !important}
+.cjSearchBox a:hover { background:#B0F96F }
+.cjSearchBoxOn { background:#B0F96F }
+.cjSearchBoxOff { background:#fff}
